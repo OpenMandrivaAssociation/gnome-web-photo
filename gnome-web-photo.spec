@@ -7,6 +7,9 @@ Group:		Graphical desktop/GNOME
 URL:		http://ftp.gnome.org/pub/gnome/sources/gnome-web-photo/
 Source:		http://ftp.gnome.org/pub/gnome/sources/gnome-web-photo/%{version}/gnome-web-photo-%{version}.tar.bz2
 BuildRequires:	gnome-common
+BuildRequires:	gnome-vfs2-devel
+BuildRequires:	intltool
+BuildRequires:	libGConf2-devel
 BuildRequires:	libxulrunner-unstable-devel
 BuildRoot:	%{_tmppath}/%{name}-%{version}
 
