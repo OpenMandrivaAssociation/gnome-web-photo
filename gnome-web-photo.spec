@@ -10,7 +10,7 @@ BuildRequires:	gnome-common
 BuildRequires:	gnome-vfs2-devel
 BuildRequires:	intltool
 BuildRequires:	libGConf2-devel
-BuildRequires:	libxulrunner-unstable-devel
+BuildRequires:	xulrunner-devel-unstable
 BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
