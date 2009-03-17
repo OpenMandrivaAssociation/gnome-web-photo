@@ -1,5 +1,5 @@
 Name:		gnome-web-photo
-Version:	0.5
+Version:	0.6
 Release:	%mkrel 1
 Summary:	Generate full images and thumbnails from web pages
 License:	LGPLv2+
