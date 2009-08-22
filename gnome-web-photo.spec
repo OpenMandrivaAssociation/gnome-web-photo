@@ -1,6 +1,6 @@
 Name:		gnome-web-photo
 Version:	0.8
-Release:	%mkrel 2
+Release:	%mkrel 3
 Summary:	Generate full images and thumbnails from web pages
 License:	LGPLv2+
 Group:		Graphical desktop/GNOME
@@ -11,7 +11,7 @@ BuildRequires:	gnome-common
 BuildRequires:	gnome-vfs2-devel
 BuildRequires:	intltool
 BuildRequires:	libGConf2-devel
-BuildRequires:	xulrunner-devel-unstable
+BuildRequires:	xulrunner-devel
 BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
