@@ -1,12 +1,12 @@
 Name:		gnome-web-photo
 Version:	0.9
-Release:	%mkrel 1
+Release:	%mkrel 2
 Summary:	Generate full images and thumbnails from web pages
 License:	LGPLv2+
 Group:		Graphical desktop/GNOME
 URL:		http://ftp.gnome.org/pub/gnome/sources/gnome-web-photo/
 Source:		http://ftp.gnome.org/pub/gnome/sources/gnome-web-photo/%{version}/gnome-web-photo-%{version}.tar.bz2
-Patch0:		gnome-web-photo-0.8-fix-libxul-rpath.patch
+Patch1:		gnome-web-photo-0.9-xulrunner192.patch
 BuildRequires:	gnome-common
 BuildRequires:	gnome-vfs2-devel
 BuildRequires:	intltool
@@ -20,7 +20,7 @@ thumbnails from HTML files and web pages.
 
 %prep
 %setup -q
-%patch0 -p0
+%patch1 -p1
 
 %build
 NOCONFIGURE=yes ./autogen.sh
