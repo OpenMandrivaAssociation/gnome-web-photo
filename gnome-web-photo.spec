@@ -34,4 +34,5 @@ thumbnails from HTML files and web pages.
 %{_bindir}/gnome-web-print
 %{_bindir}/gnome-web-thumbnail
 %{_datadir}/gnome-web-photo
+%{_datadir}/thumbnailers/gnome-web-photo.thumbnailer
 
