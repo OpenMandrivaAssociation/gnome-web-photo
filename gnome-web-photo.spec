@@ -7,6 +7,11 @@ Group:		Graphical desktop/GNOME
 URL:		https://ftp.gnome.org/pub/gnome/sources/gnome-web-photo/
 Source0:	http://ftp.gnome.org/pub/gnome/sources/gnome-web-photo/%{version}/gnome-web-photo-%{version}.tar.xz
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	intltool
 BuildRequires:	pkgconfig(gtk+-3.0)
 BuildRequires:	pkgconfig(webkitgtk-3.0)
