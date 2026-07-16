@@ -1,7 +1,7 @@
 Summary:	Generate full images and thumbnails from web pages
 Name:		gnome-web-photo
 Version:	0.10.6
-Release:	2
+Release:	3
 License:	LGPLv2+
 Group:		Graphical desktop/GNOME
 URL:		https://ftp.gnome.org/pub/gnome/sources/gnome-web-photo/
